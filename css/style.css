@@ -1,3 +1,4 @@
+/* ****** regole intera pagina ****** */
 *{
     margin: 0;
     padding: 0;
@@ -7,6 +8,9 @@
 body{
     background-color:rgb(247, 248, 249);
 }
+/* ****** /regole intera pagina ****** */
+
+/* ****** regole header ****** */
 
 .container-header{
     width: 80%;
@@ -30,6 +34,9 @@ h1{
     vertical-align: middle;
     font-size: 45px;
 }
+/* ****** /regole header ****** */
+
+/* ****** regole main ****** */
 
 .container-main{
     width: 60%;
@@ -38,6 +45,8 @@ h1{
     background-color: white;
     padding-bottom: 10px;
 }
+
+/* ****** regole bottoni nav ****** */
 
 .bottoni{
     border-bottom: 1px solid rgb(228, 228, 229);
@@ -67,6 +76,10 @@ h1{
     margin: 10px 0;
     color: lightgrey;
 }
+
+/* ****** /regole bottoni nav ****** */
+
+/* ****** regole to do list ****** */
 
 .new-task{
     margin-left: 50px;
@@ -115,6 +128,10 @@ li{
     font-size: 12px;
 }
 
+/* ****** /regole to do list ****** */
+
+/* ****** regole button ****** */
+
 .btn{
     color: white;
     border: 0;
@@ -147,4 +164,7 @@ li{
     background-color: rgb(182, 200, 73);
 }
 
+/* ****** /regole button ****** */
+
+/* ****** regole main ****** */
 
