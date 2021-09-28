@@ -34,8 +34,9 @@ h1{
 .container-main{
     width: 60%;
     margin: 30px auto;
-    border-radius: 5%;
+    border-radius: 1%;
     background-color: white;
+    padding-bottom: 10px;
 }
 
 .bottoni{
@@ -81,6 +82,11 @@ h3{
 
 ul{
     list-style: none;
+    margin-bottom: 25px;
+}
+
+li{
+    margin-bottom: 15px;
 }
 
 .check{
@@ -91,8 +97,21 @@ ul{
     border-radius: 50%;
     text-align: center;
     vertical-align: middle;
-    border: 1px solid rgb(159, 209, 195);
-    color: rgb(159, 209, 195);
+    border: 1px solid rgb(159, 209, 194);
+    color: rgb(159, 209, 194);
+    font-size: 12px;
+}
+
+.cross{
+    display: inline-block;
+    background-color: white;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid rgb(223, 119, 110);
+    color: rgb(223, 119, 110);
     font-size: 12px;
 }
 
@@ -101,9 +120,31 @@ ul{
     border: 0;
     height: 25px;
     width: 60px;
-    border-radius: 9px;
+    border-radius: 12px;
 }
 
 .blue{
     background-color: rgb(103, 170, 227);
 }
+
+.violet{
+    background-color: rgb(150, 116, 221);
+}
+
+.dark-green{
+    background-color: rgb(123, 190, 170);
+}
+
+.orange{
+    background-color: rgb(230, 162, 75);
+}
+
+.purple{
+    background-color: rgb(201, 106, 159);
+}
+
+.green{
+    background-color: rgb(182, 200, 73);
+}
+
+
