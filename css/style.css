@@ -11,7 +11,8 @@ body{
 .container-header{
     width: 80%;
     margin: auto;
-    background-color: white
+    padding: 10px;
+    background-color: white;
     border-top: 1px solid rgb(228, 228, 229);
 }
 
@@ -27,8 +28,41 @@ body{
 h1{
     display:inline;
     vertical-align: middle;
+    font-size: 45px;
 }
 
-main{
-    background-color: rgb(201, 201, 201);
+.container-main{
+    width: 60%;
+    margin: 30px auto;
+    border-radius: 5%;
+    background-color: white;
+}
+
+.bottoni{
+    border-bottom: 1px solid rgb(228, 228, 229);
+    padding: 5px 50px 0px 50px;
+}
+
+#bottone-blu{
+    margin-left: 50px;
+    width: 75px;
+    height: 30px;
+    text-align: center;
+    border-radius: 9%;
+    background-color: rgb(99, 171, 235);
+    border: 0;
+    margin: 10px 0;
+    color: white;
+}
+
+#bottone-trasparente{
+    width: 90px;
+    height: 30px;
+    text-align: center;
+    border-radius: 9%;
+    background-color: white;
+    border: 1px solid lightgrey;
+    margin: 10px 0;
+    color: lightgrey;
+    
 }
